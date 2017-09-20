@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.myDragLibDemo {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dragItem {
+    width: 150px;
+    height: 150px;
+    border: 1px dashed grey;
+    margin: 1rem;
+  }
+
+  .dropBin {
+    width: 150px;
+    height: 150px;
+    border: 1px dashed green;
+    margin: 1rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.root {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.drag-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 300px;
+  border: 1px solid black;
+  min-height: 50px;
+}
+
+.drag-container-can-drop {
+  background: lightgreen;
+}
+
+.draggable-item {
+  // width: 33.33%;
+  width: 100%;
+  height: 50px;
+  border: 1px dashed gray;
+}
+
+.draggable-item-dragging {
+  opacity: 0.5;
+}

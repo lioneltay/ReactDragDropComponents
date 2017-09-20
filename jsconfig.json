@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "static",
+    "dist",
+    "bin",
+    "dll",
+    "webpack"
+  ]
+}
